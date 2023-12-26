@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="/Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/src/main/webapp" targetInArchive="/"/>
+    <dir sourceOnDisk="/Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/target/classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/javax/javaee-api/8.0.1/javaee-api-8.0.1.jar" targetInArchive="/WEB-INF/lib/javaee-api-8.0.1.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar" targetInArchive="/WEB-INF/lib/javax.mail-1.6.2.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar" targetInArchive="/WEB-INF/lib/activation-1.1.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/org/json/json/20231013/json-20231013.jar" targetInArchive="/WEB-INF/lib/json-20231013.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar" targetInArchive="/WEB-INF/lib/guava-33.0.0-jre.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar" targetInArchive="/WEB-INF/lib/failureaccess-1.0.2.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" targetInArchive="/WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" targetInArchive="/WEB-INF/lib/jsr305-3.0.2.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar" targetInArchive="/WEB-INF/lib/checker-qual-3.41.0.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar" targetInArchive="/WEB-INF/lib/error_prone_annotations-2.23.0.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar" targetInArchive="/WEB-INF/lib/j2objc-annotations-2.8.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar" targetInArchive="/WEB-INF/lib/commons-lang3-3.7.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/squareup/okhttp3/okhttp/5.0.0-alpha.12/okhttp-5.0.0-alpha.12.jar" targetInArchive="/WEB-INF/lib/okhttp-5.0.0-alpha.12.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/squareup/okhttp3/okhttp-jvm/5.0.0-alpha.12/okhttp-jvm-5.0.0-alpha.12.jar" targetInArchive="/WEB-INF/lib/okhttp-jvm-5.0.0-alpha.12.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/squareup/okio/okio-jvm/3.7.0/okio-jvm-3.7.0.jar" targetInArchive="/WEB-INF/lib/okio-jvm-3.7.0.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/squareup/okio/okio/2.2.2/okio-2.2.2.jar" targetInArchive="/WEB-INF/lib/okio-2.2.2.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.2.60/kotlin-stdlib-1.2.60.jar" targetInArchive="/WEB-INF/lib/kotlin-stdlib-1.2.60.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.60/kotlin-stdlib-common-1.2.60.jar" targetInArchive="/WEB-INF/lib/kotlin-stdlib-common-1.2.60.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar" targetInArchive="/WEB-INF/lib/annotations-13.0.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar" targetInArchive="/WEB-INF/lib/commons-io-2.15.1.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+</archive>
