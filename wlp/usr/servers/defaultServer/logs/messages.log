@@ -5,24 +5,24 @@ java.home = /Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home
 java.version = 16.0.2
 java.runtime = Java(TM) SE Runtime Environment (16.0.2+7-67)
 os = Mac OS X (10.16; x86_64) (hu_HU)
-process = 1957@Milka-Macbook-Air-2.local
+process = 24944@Milka-Macbook-Air-2.local
 ********************************************************************************
-[2023. 12. 30. 21:59:55:736 CET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: A(z) defaultServer kiszolgáló elindult.
-[2023. 12. 30. 21:59:55:807 CET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: Ez a terméklicenc fejlesztési használatra vonatkozik, valamint korlátozott éles használatra. A teljes licencfeltételek itt tekinthetők meg: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/19.0.0.5/lafiles/en.html
-[2023. 12. 30. 21:59:57:149 CET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: A kernel 1,806 másodperc után elindult.
-[2023. 12. 30. 21:59:57:179 CET] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: A szolgáltatásfrissítés elindult.
-[2023. 12. 30. 21:59:57:810 CET] 00000017 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: A biztonsági szolgáltatás indul...
-[2023. 12. 30. 21:59:58:416 CET] 00000019 com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0819I: Az alapértelmezett kulcstároló nem jött létre, mert a jelszó nincs beállítva a(z) <keyStore id="defaultKeyStore"/> elemben, és a 'keystore_password' környezeti változó nincs beállítva. 
-[2023. 12. 30. 21:59:58:481 CET] 00000023 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: Az LTPA 0,035 másodperc után üzemkész lesz.
-[2023. 12. 30. 21:59:58:492 CET] 00000017 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: Az együttes hitelesítési bedolgozó, melynek osztályneve NullCollectiveAuthenticationPlugin, aktiválva lett. 
-[2023. 12. 30. 21:59:59:038 CET] 00000017 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: dropins megfigyelése alkalmazások esetében.
-[2023. 12. 30. 21:59:59:334 CET] 00000029 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: A(z) defaultHttpEndpoint TCP csatorna elindult, és most a(z) localhost  (IPv4: 127.0.0.1) hoszt 9080 portján figyeli a kéréseket.
-[2023. 12. 30. 22:00:00:126 CET] 00000017 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: A(z) nevű baseCache WebSphere dinamikus gyorsítótárpéldány sikeresen inicializálva lett.
-[2023. 12. 30. 22:00:00:130 CET] 00000017 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: A(z) default gyorsítótár-szolgáltatót használja.
-[2023. 12. 30. 22:00:00:131 CET] 00000017 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: A dinamikus gyorsítótár (objektum gyorsítótár) inicializálása sikeres volt.
-[2023. 12. 30. 22:00:00:721 CET] 00000035 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: A(z) anagram alkalmazás indítása.
-[2023. 12. 30. 22:00:01:889 CET] 00000035 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Egy FFDC incidens létrehozásra került: "java.lang.IllegalArgumentException: Unsupported class file major version 60 com.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets 529" a(z) ffdc_23.12.30_22.00.01.0.log helyen
-[2023. 12. 30. 22:00:01:897 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:39:080 CET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: A(z) defaultServer kiszolgáló elindult.
+[2023. 12. 31. 16:40:39:143 CET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: Ez a terméklicenc fejlesztési használatra vonatkozik, valamint korlátozott éles használatra. A teljes licencfeltételek itt tekinthetők meg: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/19.0.0.5/lafiles/en.html
+[2023. 12. 31. 16:40:40:473 CET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: A kernel 1,658 másodperc után elindult.
+[2023. 12. 31. 16:40:40:492 CET] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: A szolgáltatásfrissítés elindult.
+[2023. 12. 31. 16:40:41:153 CET] 00000017 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: A biztonsági szolgáltatás indul...
+[2023. 12. 31. 16:40:41:802 CET] 00000019 com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0819I: Az alapértelmezett kulcstároló nem jött létre, mert a jelszó nincs beállítva a(z) <keyStore id="defaultKeyStore"/> elemben, és a 'keystore_password' környezeti változó nincs beállítva. 
+[2023. 12. 31. 16:40:41:882 CET] 00000023 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: Az LTPA 0,041 másodperc után üzemkész lesz.
+[2023. 12. 31. 16:40:41:923 CET] 00000017 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: Az együttes hitelesítési bedolgozó, melynek osztályneve NullCollectiveAuthenticationPlugin, aktiválva lett. 
+[2023. 12. 31. 16:40:42:455 CET] 00000017 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: dropins megfigyelése alkalmazások esetében.
+[2023. 12. 31. 16:40:42:755 CET] 00000029 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: A(z) defaultHttpEndpoint TCP csatorna elindult, és most a(z) localhost  (IPv4: 127.0.0.1) hoszt 9080 portján figyeli a kéréseket.
+[2023. 12. 31. 16:40:43:549 CET] 00000017 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: A(z) nevű baseCache WebSphere dinamikus gyorsítótárpéldány sikeresen inicializálva lett.
+[2023. 12. 31. 16:40:43:552 CET] 00000017 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: A(z) default gyorsítótár-szolgáltatót használja.
+[2023. 12. 31. 16:40:43:553 CET] 00000017 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: A dinamikus gyorsítótár (objektum gyorsítótár) inicializálása sikeres volt.
+[2023. 12. 31. 16:40:44:137 CET] 00000035 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: A(z) anagram alkalmazás indítása.
+[2023. 12. 31. 16:40:45:398 CET] 00000035 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Egy FFDC incidens létrehozásra került: "java.lang.IllegalArgumentException: Unsupported class file major version 60 com.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets 529" a(z) ffdc_23.12.31_16.40.45.0.log helyen
+[2023. 12. 31. 16:40:45:407 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -59,7 +59,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:950 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:462 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -96,7 +96,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:952 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:465 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -133,7 +133,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:961 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:467 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -170,7 +170,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:962 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:468 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -207,7 +207,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:963 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:469 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -244,7 +244,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:964 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:473 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -281,7 +281,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:967 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:477 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -318,7 +318,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:972 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:484 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -355,7 +355,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:974 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:486 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -392,7 +392,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:977 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:488 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -429,7 +429,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:993 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:490 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -466,7 +466,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:995 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:493 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -503,7 +503,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:996 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:494 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -540,7 +540,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:997 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:496 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -577,7 +577,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:998 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:497 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -614,7 +614,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:01:999 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:498 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -651,7 +651,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:026 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:499 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -688,7 +688,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:033 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:502 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -725,7 +725,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:038 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:507 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -762,7 +762,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:040 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:509 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -799,7 +799,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:040 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:540 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -836,7 +836,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:041 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:542 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -873,7 +873,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:042 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:556 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -910,7 +910,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:042 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:558 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -947,7 +947,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:043 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:559 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -984,7 +984,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:043 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:560 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1021,7 +1021,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:047 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:561 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1058,7 +1058,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:048 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:561 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1095,7 +1095,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:051 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:562 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1132,7 +1132,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:052 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:565 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1169,7 +1169,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:053 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:566 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1206,7 +1206,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:054 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:568 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1243,7 +1243,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:055 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:569 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1280,7 +1280,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:057 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:570 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1317,7 +1317,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:058 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:571 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1354,7 +1354,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:058 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:571 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1391,7 +1391,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:071 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:572 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1428,7 +1428,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:073 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:573 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1465,7 +1465,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:074 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:574 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1502,7 +1502,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:075 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:574 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1539,7 +1539,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:076 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:575 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1576,7 +1576,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:077 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:587 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1613,7 +1613,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:078 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:588 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1650,7 +1650,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:078 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:588 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1687,7 +1687,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:079 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:589 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1724,7 +1724,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:080 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:589 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1761,7 +1761,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:083 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:595 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1798,7 +1798,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:084 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:596 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1835,7 +1835,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:085 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:597 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1872,7 +1872,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:086 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:598 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1909,7 +1909,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:087 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:598 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1946,7 +1946,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:087 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:599 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -1983,7 +1983,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:088 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:599 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2020,7 +2020,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:088 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:605 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2057,7 +2057,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:089 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:611 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2094,7 +2094,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:090 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:615 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2131,7 +2131,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:091 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:617 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2168,7 +2168,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:093 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:619 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2205,7 +2205,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:095 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:621 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2242,7 +2242,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:097 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:622 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2279,7 +2279,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:098 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:624 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2316,7 +2316,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:098 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:626 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2353,7 +2353,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:101 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:627 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2390,7 +2390,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:102 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:628 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2427,7 +2427,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:103 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:631 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2464,7 +2464,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:108 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:632 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2501,7 +2501,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:111 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:633 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2538,7 +2538,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:114 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:634 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2575,7 +2575,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:116 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:635 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2612,7 +2612,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:116 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:636 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2649,7 +2649,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:117 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:636 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2686,7 +2686,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:118 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:637 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2723,7 +2723,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:118 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:638 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2760,7 +2760,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:120 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:638 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2797,7 +2797,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:120 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:639 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2834,7 +2834,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:121 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:640 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2871,7 +2871,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:122 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:640 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2908,7 +2908,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:126 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:641 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2945,7 +2945,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:127 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:641 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -2982,7 +2982,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:127 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:642 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3019,7 +3019,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:128 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:642 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3056,7 +3056,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:129 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:643 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3093,7 +3093,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:129 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:648 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3130,7 +3130,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:130 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:650 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3167,7 +3167,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:131 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:652 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3204,7 +3204,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:133 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:654 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3241,7 +3241,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:142 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:678 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3278,7 +3278,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:150 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:684 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3315,7 +3315,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:156 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:685 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3352,7 +3352,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:157 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:687 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3389,7 +3389,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:158 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:689 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3426,7 +3426,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:159 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:691 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3463,7 +3463,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:159 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:693 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3500,7 +3500,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:160 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:696 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3537,7 +3537,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:160 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:699 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3574,7 +3574,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:161 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:702 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3611,7 +3611,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:165 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:768 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3648,7 +3648,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:167 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:782 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3685,7 +3685,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:168 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:791 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3722,7 +3722,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:168 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:794 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3759,7 +3759,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:168 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:816 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3796,7 +3796,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:169 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:822 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3833,7 +3833,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:170 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:824 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3870,7 +3870,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:170 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:827 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3907,7 +3907,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:171 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:830 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3944,7 +3944,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:172 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:833 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -3981,7 +3981,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:173 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:834 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4018,7 +4018,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:173 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:835 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4055,7 +4055,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:174 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:835 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4092,7 +4092,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:174 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:836 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4129,7 +4129,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:174 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:837 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4166,7 +4166,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:175 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:838 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4203,7 +4203,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:176 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:841 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4240,7 +4240,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:177 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:845 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4277,7 +4277,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:177 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:855 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4314,7 +4314,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:180 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:858 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4351,7 +4351,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:181 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:859 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4388,7 +4388,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:184 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:864 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4425,7 +4425,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:186 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:866 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4462,7 +4462,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:188 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:867 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4499,7 +4499,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:197 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:867 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4536,7 +4536,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:200 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:868 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4573,7 +4573,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:200 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:870 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4610,7 +4610,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:201 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:871 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4647,7 +4647,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:201 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:871 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4684,7 +4684,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:204 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:871 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4721,7 +4721,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:205 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:877 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4758,7 +4758,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:207 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:880 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4795,7 +4795,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:209 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:883 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4832,7 +4832,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:209 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:883 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4869,7 +4869,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:210 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:884 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4906,7 +4906,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:210 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:884 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4943,7 +4943,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:211 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:885 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -4980,7 +4980,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:211 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:885 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5017,7 +5017,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:219 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:894 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5054,7 +5054,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:220 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:895 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5091,7 +5091,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:220 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:898 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5128,7 +5128,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:221 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:898 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5165,7 +5165,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:222 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:899 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5202,7 +5202,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:222 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:899 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5239,7 +5239,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:223 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:911 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5276,7 +5276,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:223 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:912 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5313,7 +5313,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:223 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:913 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5350,7 +5350,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:225 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:913 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5387,7 +5387,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:225 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:913 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5424,7 +5424,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:225 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:914 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5461,7 +5461,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:226 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:915 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5498,7 +5498,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:227 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:921 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5535,7 +5535,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:228 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:922 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5572,7 +5572,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:228 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:923 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5609,7 +5609,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:235 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:923 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5646,7 +5646,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:235 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:924 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5683,7 +5683,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:236 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:924 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5720,7 +5720,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:237 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:925 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5757,7 +5757,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:237 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:925 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5794,7 +5794,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:237 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:925 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5831,7 +5831,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:238 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:927 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5868,7 +5868,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:239 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:927 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5905,7 +5905,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:239 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:927 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5942,7 +5942,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:239 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:928 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -5979,7 +5979,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:240 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:928 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6016,7 +6016,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:240 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:929 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6053,7 +6053,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:240 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:929 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6090,7 +6090,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:241 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:929 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6127,7 +6127,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:241 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:930 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6164,7 +6164,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:241 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:931 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6201,7 +6201,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:242 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:933 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6238,7 +6238,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:242 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:933 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6275,7 +6275,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:242 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:934 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6312,7 +6312,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:242 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:934 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6349,7 +6349,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:243 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:935 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6386,7 +6386,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:243 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:937 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6423,7 +6423,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:244 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:939 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6460,7 +6460,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:245 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:958 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6497,7 +6497,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:246 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:959 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6534,7 +6534,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:246 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:960 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6571,7 +6571,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:247 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:960 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6608,7 +6608,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:248 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:960 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6645,7 +6645,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:249 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:961 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6682,7 +6682,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:249 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:966 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6719,7 +6719,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:250 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:968 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6756,7 +6756,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:250 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:969 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6793,7 +6793,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:251 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:970 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6830,7 +6830,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:251 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:971 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6867,7 +6867,7 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:251 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
+[2023. 12. 31. 16:40:45:972 CET] 00000035 m.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets W CWWKC0044W: Kivétel történt az osztály- és feljegyzésadatok keresése során. A kivétel: java.lang.IllegalArgumentException: Unsupported class file major version 60
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
@@ -6904,35 +6904,38 @@ process = 1957@Milka-Macbook-Air-2.local
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 .
-[2023. 12. 30. 22:00:02:275 CET] 00000035 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Egy FFDC incidens létrehozásra került: "java.lang.IllegalArgumentException: Unsupported class file major version 60 com.ibm.ws.anno.info.internal.InfoStoreImpl 247" a(z) ffdc_23.12.30_22.00.02.0.log helyen
-[2023. 12. 30. 22:00:02:285 CET] 00000035 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Egy FFDC incidens létrehozásra került: "com.ibm.wsspi.anno.info.InfoStoreException: Class [ java.lang.Object ] from resource [ java/lang/Object.class ] Exception creating reader com.ibm.ws.anno.info.internal.ClassInfoCache 1080" a(z) ffdc_23.12.30_22.00.02.1.log helyen
-[2023. 12. 30. 22:00:02:286 CET] 00000035 com.ibm.ws.anno.info.internal.ClassInfoCache                 W CWWKC0022W: [ com.ibm.ws.anno.info.internal.ClassInfoCache@575756196 ] A(z) [java.lang.Object] osztály elemzése kivételt okozott. Az üzenet: [Class [ java.lang.Object ] from resource [ java/lang/Object.class ] Exception creating reader], amit a következő okozott: [Unsupported class file major version 60].
-[2023. 12. 30. 22:00:02:437 CET] 00000035 org.jboss.weld.Version                                       I WELD-000900: 2.4.8 (Final)
-[2023. 12. 30. 22:00:05:587 CET] 00000035 com.ibm.ws.session.WASSessionCore                            I SESN8501I: A munkamenet-kezelő nem talált állandó tárolóhelyet, ezért a rendszer a HttpSession objektumokat a helyi alkalmazáskiszolgáló memóriájában tárolja.
-[2023. 12. 30. 22:00:05:623 CET] 00000035 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Webes modul betöltése: Anagram.
-[2023. 12. 30. 22:00:05:629 CET] 00000035 com.ibm.ws.webcontainer                                      I SRVE0250I: A(z) Anagram webmodul a(z) default_host elemhez lett kötve.
-[2023. 12. 30. 22:00:05:631 CET] 00000035 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: A webalkalmazás elérhető (default_host): http://localhost:9080/anagram/
-[2023. 12. 30. 22:00:05:639 CET] 00000035 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: A(z) anagram alkalmazás 4,918 másodperc alatt elindult.
-[2023. 12. 30. 22:00:05:662 CET] 00000030 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Egy új munkamenet-kontextus kerül létrehozásra a(z) default_host/anagram alkalmazáskulcshoz.
-[2023. 12. 30. 22:00:05:671 CET] 00000030 com.ibm.ws.util                                              I SESN0172I: A munkamenet-kezelő a Java alapértelmezett SecureRandom megvalósítást használja a munkamenet-azonosítók előállításához.
-[2023. 12. 30. 22:00:05:844 CET] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: A kiszolgáló telepített a következő szolgáltatásokat: [appSecurity-2.0, beanValidation-1.1, cdi-1.2, concurrent-1.0, distributedMap-1.0, ejbLite-3.2, el-3.0, jaxrs-2.0, jaxrsClient-2.0, jdbc-4.1, jndi-1.0, jpa-2.1, jpaContainer-2.1, jsf-2.2, json-1.0, jsonp-1.0, jsp-2.3, localConnector-1.0, managedBeans-1.0, servlet-3.1, ssl-1.0, webProfile-7.0, websocket-1.1].
-[2023. 12. 30. 22:00:05:854 CET] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: A szolgáltatásfrissítés befejeződött 8,704 másodperc alatt.
-[2023. 12. 30. 22:00:05:855 CET] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: A(z) defaultServer kiszolgáló készen áll egy intelligensebb planet futtatására. A(z) defaultServer kiszolgáló 10,515 másodperc alatt elindult.
-[2023. 12. 30. 22:00:05:877 CET] 00000030 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: A dinamikus gyorsítótár (objektum gyorsítótár) inicializálása sikeres volt.
-[2023. 12. 30. 22:00:05:989 CET] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Egy webkiszolgáló bedolgozó konfigurációs fájl automatikusan előállításra került a kiszolgálóhoz itt: /Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
-[2023. 12. 30. 22:00:06:159 CET] 00000030 .jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer W CWWKW1002W: A(z) JsonArrayReader JAXRS-2.0 szolgáltató CDI hatóköre: javax.enterprise.context.Dependent. A Liberty a szolgáltatópéldányt a következőtől kéri le: CDI.
-[2023. 12. 30. 22:00:06:163 CET] 00000030 .jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer W CWWKW1002W: A(z) JsonArrayWriter JAXRS-2.0 szolgáltató CDI hatóköre: javax.enterprise.context.Dependent. A Liberty a szolgáltatópéldányt a következőtől kéri le: CDI.
-[2023. 12. 30. 22:00:06:164 CET] 00000030 .jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer W CWWKW1002W: A(z) JsonObjectWriter JAXRS-2.0 szolgáltató CDI hatóköre: javax.enterprise.context.Dependent. A Liberty a szolgáltatópéldányt a következőtől kéri le: CDI.
-[2023. 12. 30. 22:00:06:164 CET] 00000030 .jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer W CWWKW1002W: A(z) JsonObjectReader JAXRS-2.0 szolgáltató CDI hatóköre: javax.enterprise.context.Dependent. A Liberty a szolgáltatópéldányt a következőtől kéri le: CDI.
-[2023. 12. 30. 22:00:06:250 CET] 00000030 .ibm.ws.jaxrs.2.0.common:1.0.28.cl190520190522-2227(id=193)] I Setting the server's publish address to be /api/
-[2023. 12. 30. 22:00:06:464 CET] 00000030 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [anagram] [/anagram] [javax.ws.rs.core.Application]: Az inicializálás sikeres volt.
-[2023. 12. 30. 22:10:09:984 CET] 00000014 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: A(z) defaultServer kiszolgáló leáll, mert a JVM leállítás alatt van.
-[2023. 12. 30. 22:10:10:018 CET] 00000049 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Várakozás legfeljebb 30 másodpercig a kiszolgáló fokozatos leállítására.
-[2023. 12. 30. 22:10:10:056 CET] 00000030 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: A(z) defaultHttpEndpoint UDP csatorna már nem figyeli a kéréseket  a(z) localhost  (IPv4: 127.0.0.1) hoszt 9080 portján.
-[2023. 12. 30. 22:10:10:063 CET] 00000030 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: A webalkalmazás eltávolítva (default_host): http://localhost:9080/anagram/
-[2023. 12. 30. 22:10:11:073 CET] 00000049 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Kiszolgáló fokozatos leállítása befejeződött.
-[2023. 12. 30. 22:10:11:175 CET] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: A(z) anagram alkalmazás sikeresen leállt.
-[2023. 12. 30. 22:10:11:298 CET] 00000049 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: A biztonsági szolgáltatás leállt.
-[2023. 12. 30. 22:10:11:304 CET] 00000015 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: A kiszolgáló leállítására irányuló kérelem került kiadásra 2023. december 30., szombat napon 22:10 időpontban. A(z) defaultServer kiszolgáló leáll.
-[2023. 12. 30. 22:10:11:323 CET] 00000049 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: Az együttes hitelesítési bedolgozó, melynek osztályneve NullCollectiveAuthenticationPlugin, deaktiválva lett. 
-[2023. 12. 30. 22:10:11:747 CET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: A(z) defaultServer kiszolgáló leállt 10 perc, 16,42 másodperc elteltével.
+[2023. 12. 31. 16:40:46:022 CET] 00000035 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Egy FFDC incidens létrehozásra került: "java.lang.IllegalArgumentException: Unsupported class file major version 60 com.ibm.ws.anno.info.internal.InfoStoreImpl 247" a(z) ffdc_23.12.31_16.40.45.1.log helyen
+[2023. 12. 31. 16:40:46:038 CET] 00000035 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Egy FFDC incidens létrehozásra került: "com.ibm.wsspi.anno.info.InfoStoreException: Class [ java.lang.Object ] from resource [ java/lang/Object.class ] Exception creating reader com.ibm.ws.anno.info.internal.ClassInfoCache 1080" a(z) ffdc_23.12.31_16.40.46.0.log helyen
+[2023. 12. 31. 16:40:46:039 CET] 00000035 com.ibm.ws.anno.info.internal.ClassInfoCache                 W CWWKC0022W: [ com.ibm.ws.anno.info.internal.ClassInfoCache@967172478 ] A(z) [java.lang.Object] osztály elemzése kivételt okozott. Az üzenet: [Class [ java.lang.Object ] from resource [ java/lang/Object.class ] Exception creating reader], amit a következő okozott: [Unsupported class file major version 60].
+[2023. 12. 31. 16:40:46:175 CET] 00000035 org.jboss.weld.Version                                       I WELD-000900: 2.4.8 (Final)
+[2023. 12. 31. 16:40:49:001 CET] 00000035 com.ibm.ws.session.WASSessionCore                            I SESN8501I: A munkamenet-kezelő nem talált állandó tárolóhelyet, ezért a rendszer a HttpSession objektumokat a helyi alkalmazáskiszolgáló memóriájában tárolja.
+[2023. 12. 31. 16:40:49:031 CET] 00000035 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Webes modul betöltése: Anagram.
+[2023. 12. 31. 16:40:49:035 CET] 00000035 com.ibm.ws.webcontainer                                      I SRVE0250I: A(z) Anagram webmodul a(z) default_host elemhez lett kötve.
+[2023. 12. 31. 16:40:49:036 CET] 00000035 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: A webalkalmazás elérhető (default_host): http://localhost:9080/anagram/
+[2023. 12. 31. 16:40:49:043 CET] 00000035 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: A(z) anagram alkalmazás 4,905 másodperc alatt elindult.
+[2023. 12. 31. 16:40:49:056 CET] 00000021 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Egy új munkamenet-kontextus kerül létrehozásra a(z) default_host/anagram alkalmazáskulcshoz.
+[2023. 12. 31. 16:40:49:062 CET] 00000021 com.ibm.ws.util                                              I SESN0172I: A munkamenet-kezelő a Java alapértelmezett SecureRandom megvalósítást használja a munkamenet-azonosítók előállításához.
+[2023. 12. 31. 16:40:49:239 CET] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: A kiszolgáló telepített a következő szolgáltatásokat: [appSecurity-2.0, beanValidation-1.1, cdi-1.2, concurrent-1.0, distributedMap-1.0, ejbLite-3.2, el-3.0, jaxrs-2.0, jaxrsClient-2.0, jdbc-4.1, jndi-1.0, jpa-2.1, jpaContainer-2.1, jsf-2.2, json-1.0, jsonp-1.0, jsp-2.3, localConnector-1.0, managedBeans-1.0, servlet-3.1, ssl-1.0, webProfile-7.0, websocket-1.1].
+[2023. 12. 31. 16:40:49:246 CET] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: A szolgáltatásfrissítés befejeződött 8,776 másodperc alatt.
+[2023. 12. 31. 16:40:49:247 CET] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: A(z) defaultServer kiszolgáló készen áll egy intelligensebb planet futtatására. A(z) defaultServer kiszolgáló 10,437 másodperc alatt elindult.
+[2023. 12. 31. 16:40:49:280 CET] 00000021 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: A dinamikus gyorsítótár (objektum gyorsítótár) inicializálása sikeres volt.
+[2023. 12. 31. 16:40:49:400 CET] 00000023 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Egy webkiszolgáló bedolgozó konfigurációs fájl automatikusan előállításra került a kiszolgálóhoz itt: /Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[2023. 12. 31. 16:40:49:556 CET] 00000021 .jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer W CWWKW1002W: A(z) JsonObjectReader JAXRS-2.0 szolgáltató CDI hatóköre: javax.enterprise.context.Dependent. A Liberty a szolgáltatópéldányt a következőtől kéri le: CDI.
+[2023. 12. 31. 16:40:49:560 CET] 00000021 .jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer W CWWKW1002W: A(z) JsonArrayWriter JAXRS-2.0 szolgáltató CDI hatóköre: javax.enterprise.context.Dependent. A Liberty a szolgáltatópéldányt a következőtől kéri le: CDI.
+[2023. 12. 31. 16:40:49:561 CET] 00000021 .jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer W CWWKW1002W: A(z) JsonArrayReader JAXRS-2.0 szolgáltató CDI hatóköre: javax.enterprise.context.Dependent. A Liberty a szolgáltatópéldányt a következőtől kéri le: CDI.
+[2023. 12. 31. 16:40:49:561 CET] 00000021 .jaxrs20.cdi.component.JaxRsFactoryImplicitBeanCDICustomizer W CWWKW1002W: A(z) JsonObjectWriter JAXRS-2.0 szolgáltató CDI hatóköre: javax.enterprise.context.Dependent. A Liberty a szolgáltatópéldányt a következőtől kéri le: CDI.
+[2023. 12. 31. 16:40:49:654 CET] 00000021 .ibm.ws.jaxrs.2.0.common:1.0.28.cl190520190522-2227(id=193)] I Setting the server's publish address to be /api/
+[2023. 12. 31. 16:40:49:792 CET] 00000021 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [anagram] [/anagram] [javax.ws.rs.core.Application]: Az inicializálás sikeres volt.
+[2023. 12. 31. 16:41:39:273 CET] 00000027 org.apache.cxf.jaxrs.utils.JAXRSUtils                        W No operation matching request path "/anagram/api/anagram/permutations/wind" is found, Relative Path: /anagram/permutations/wind, HTTP Method: GET, ContentType: */*, Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,. Please enable FINE/TRACE log level for more details.
+[2023. 12. 31. 17:13:48:230 CET] 0000007b com.ibm.ws.webcontainer.extension                            W SRVE0190E: A fájl nem található: /anagram/api/permutations/abc
+[2023. 12. 31. 17:15:31:972 CET] 00000077 com.ibm.ws.webcontainer.extension                            W SRVE0190E: A fájl nem található: /anagram/api/permutations/abc
+[2023. 12. 31. 17:25:12:532 CET] 00000014 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: A(z) defaultServer kiszolgáló leáll, mert a JVM leállítás alatt van.
+[2023. 12. 31. 17:25:12:988 CET] 000000a2 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Várakozás legfeljebb 30 másodpercig a kiszolgáló fokozatos leállítására.
+[2023. 12. 31. 17:25:13:175 CET] 00000073 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: A(z) defaultHttpEndpoint UDP csatorna már nem figyeli a kéréseket  a(z) localhost  (IPv4: 127.0.0.1) hoszt 9080 portján.
+[2023. 12. 31. 17:25:13:206 CET] 00000073 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: A webalkalmazás eltávolítva (default_host): http://localhost:9080/anagram/
+[2023. 12. 31. 17:25:14:065 CET] 00000015 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: A kiszolgáló leállítására irányuló kérelem került kiadásra 2023. december 31., vasárnap napon 17:25 időpontban. A(z) defaultServer kiszolgáló leáll.
+[2023. 12. 31. 17:25:14:232 CET] 000000a2 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Kiszolgáló fokozatos leállítása befejeződött.
+[2023. 12. 31. 17:25:14:625 CET] 000000a6 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: A(z) anagram alkalmazás sikeresen leállt.
+[2023. 12. 31. 17:25:14:924 CET] 000000a2 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: A biztonsági szolgáltatás leállt.
+[2023. 12. 31. 17:25:15:066 CET] 000000a2 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: Az együttes hitelesítési bedolgozó, melynek osztályneve NullCollectiveAuthenticationPlugin, deaktiválva lett. 
+[2023. 12. 31. 17:25:15:803 CET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: A(z) defaultServer kiszolgáló leállt 44 perc, 37,103 másodperc elteltével.

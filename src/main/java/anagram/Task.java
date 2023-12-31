@@ -129,20 +129,24 @@ public class Task {
 
             Object pronunciationObject = jsonObject.opt("pronunciation");
             String pronunciation;
-
             if (pronunciationObject instanceof JSONObject) {
                 JSONObject pronunciationJsonObject = (JSONObject) pronunciationObject;
-                if ("noun".equals(partOfSpeech)) {
-                    pronunciation = pronunciationJsonObject.optString("noun",
-                            pronunciationJsonObject.optString("all", "No pronunciation available"));
-                } else if ("verb".equals(partOfSpeech)) {
-                    pronunciation = pronunciationJsonObject.optString("verb",
-                            pronunciationJsonObject.optString("all", "No pronunciation available"));
-                } else if ("adjective".equals(partOfSpeech)) {
-                    pronunciation = pronunciationJsonObject.optString("adjective",
-                            pronunciationJsonObject.optString("all", "No pronunciation available"));
-                } else {
-                    pronunciation = pronunciationJsonObject.optString("all", "No pronunciation available");
+                switch (partOfSpeech) {
+                    case "noun":
+                        pronunciation = pronunciationJsonObject.optString("noun",
+                                pronunciationJsonObject.optString("all", "No pronunciation available"));
+                        break;
+                    case "verb":
+                        pronunciation = pronunciationJsonObject.optString("verb",
+                                pronunciationJsonObject.optString("all", "No pronunciation available"));
+                        break;
+                    case "adjective":
+                        pronunciation = pronunciationJsonObject.optString("adjective",
+                                pronunciationJsonObject.optString("all", "No pronunciation available"));
+                        break;
+                    default:
+                        pronunciation = pronunciationJsonObject.optString("all", "No pronunciation available");
+                        break;
                 }
             } else {
                 pronunciation = pronunciationObject != null ? pronunciationObject.toString()
@@ -227,7 +231,7 @@ public class Task {
 
     public static void main(String[] args) {
         System.out.println("Permutations: ");
-        Set<String> permutations = generatePermutations("dog");
+        Set<String> permutations = generatePermutations("wind");
         for (String permutation : permutations) {
             System.out.println(permutation);
         }
@@ -241,7 +245,7 @@ public class Task {
          */
 
         System.out.println("Valid permutations: ");
-        List<Word> validWords2 = findValidPermutations("dog");
+        List<Word> validWords2 = findValidPermutations("wind");
         for (Word word : validWords2) {
             System.out.println(word.toString());
         }
