@@ -1,0 +1,10 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0    186 2024. 01. 01. 15:30:21:791 CET 2024. 01. 01. 15:30:22:404 CET java.lang.IllegalArgumentException com.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets 529
+                                                                            - /Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_24.01.01_15.30.21.0.log
+     1      1 2024. 01. 01. 15:30:22:512 CET 2024. 01. 01. 15:30:22:512 CET java.lang.IllegalArgumentException com.ibm.ws.anno.info.internal.InfoStoreImpl 247
+                                                                            - /Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_24.01.01_15.30.22.0.log
+     2      1 2024. 01. 01. 15:30:22:541 CET 2024. 01. 01. 15:30:22:541 CET com.ibm.wsspi.anno.info.InfoStoreException com.ibm.ws.anno.info.internal.ClassInfoCache 1080
+                                                                            - /Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_24.01.01_15.30.22.1.log
+------+------+---------------------------+---------------------------+---------------------------

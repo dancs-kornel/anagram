@@ -1,0 +1,13 @@
+
+arg0=defaultServer
+arg1=--pid=
+arg2=--stop
+exit=1
+
+                 Java home:  /Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home
+              Install root:  /Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/wlp/
+          System libraries:  /Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/wlp/lib/
+                 User root:  /Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/wlp/usr/
+                    Config:  /Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/wlp/usr/servers/defaultServer/
+                    Output:  /Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/wlp/usr/servers/defaultServer/
+

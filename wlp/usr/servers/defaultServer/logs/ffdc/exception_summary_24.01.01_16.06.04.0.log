@@ -1,0 +1,6 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      1 2024. 01. 01. 16:06:04:021 CET 2024. 01. 01. 16:06:04:021 CET java.lang.IllegalArgumentException com.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets 529
+                                                                            - /Users/dancskornel/Library/CloudStorage/OneDrive-EotvosLorandTudomanyegyetem/IBM/anagram/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_24.01.01_16.06.04.0.log
+------+------+---------------------------+---------------------------+---------------------------

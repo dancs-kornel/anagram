@@ -1,0 +1,463 @@
+------Start of DE processing------ = [2024. 01. 01. 16:06:04:560 CET]
+Exception = com.ibm.wsspi.anno.info.InfoStoreException
+Source = com.ibm.ws.anno.info.internal.ClassInfoCache
+probeid = 1080
+Stack Dump = com.ibm.wsspi.anno.info.InfoStoreException: Class [ java.lang.Object ] from resource [ java/lang/Object.class ] Exception creating reader
+	at com.ibm.wsspi.anno.info.InfoStoreException.wrap(InfoStoreException.java:41)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanNewClass(InfoStoreImpl.java:252)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanNewClass(InfoStoreImpl.java:190)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanClass(InfoStoreImpl.java:145)
+	at com.ibm.ws.anno.info.internal.ClassInfoCache.scanClass(ClassInfoCache.java:158)
+	at com.ibm.ws.anno.info.internal.ClassInfoCache.resolveClassInfo(ClassInfoCache.java:1077)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.resolveClassInfo(InfoStoreImpl.java:367)
+	at com.ibm.ws.anno.info.internal.DelayedClassInfo.getClassInfo(DelayedClassInfo.java:129)
+	at com.ibm.ws.anno.info.internal.DelayedClassInfo.getAnnotations(DelayedClassInfo.java:475)
+	at com.ibm.ws.anno.info.internal.NonDelayedClassInfo.getAnnotations(NonDelayedClassInfo.java:390)
+	at com.ibm.ws.anno.info.internal.InfoImpl.isAnnotationPresent(InfoImpl.java:210)
+	at com.ibm.ws.anno.info.internal.ClassInfoCache.addClassInfo(ClassInfoCache.java:949)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.addClassInfo(InfoStoreImpl.java:357)
+	at com.ibm.ws.anno.info.internal.InfoVisitor.visitEndClass(InfoVisitor.java:563)
+	at com.ibm.ws.anno.info.internal.InfoVisitor.visitEnd(InfoVisitor.java:535)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:692)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:400)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanNewClass(InfoStoreImpl.java:258)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanNewClass(InfoStoreImpl.java:190)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanClass(InfoStoreImpl.java:145)
+	at com.ibm.ws.anno.info.internal.ClassInfoCache.scanClass(ClassInfoCache.java:158)
+	at com.ibm.ws.anno.info.internal.ClassInfoCache.resolveClassInfo(ClassInfoCache.java:1077)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.resolveClassInfo(InfoStoreImpl.java:367)
+	at com.ibm.ws.anno.info.internal.DelayedClassInfo.getClassInfo(DelayedClassInfo.java:129)
+	at com.ibm.ws.anno.info.internal.DelayedClassInfo.getAnnotation(DelayedClassInfo.java:485)
+	at com.ibm.ws.anno.info.internal.InfoImpl.getAnnotation(InfoImpl.java:245)
+	at com.ibm.ws.anno.info.internal.InfoImpl.getAnnotation(InfoImpl.java:28)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfiguratorHelper.configureMultipartConfigAnnotation(WebAppConfiguratorHelper.java:2247)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfiguratorHelper.configureFromAnnotations(WebAppConfiguratorHelper.java:810)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurator.configure(WebAppConfigurator.java:422)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurationAdapter.adapt(WebAppConfigurationAdapter.java:119)
+	at com.ibm.ws.webcontainer.osgi.container.config.WebAppConfigurationAdapter.adapt(WebAppConfigurationAdapter.java:43)
+	at com.ibm.ws.adaptable.module.internal.AdapterFactoryServiceImpl.adapt(AdapterFactoryServiceImpl.java:224)
+	at com.ibm.ws.adaptable.module.internal.AdaptableContainerImpl.adapt(AdaptableContainerImpl.java:170)
+	at com.ibm.ws.webcontainer.osgi.WebContainer.createModuleMetaData(WebContainer.java:839)
+	at com.ibm.ws.app.manager.module.internal.ModuleHandlerBase.createModuleMetaData(ModuleHandlerBase.java:63)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase$ModuleContainerInfoBase.createModuleMetaData(SimpleDeployedAppInfoBase.java:181)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.preDeployApp(SimpleDeployedAppInfoBase.java:535)
+	at com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase.installApp(SimpleDeployedAppInfoBase.java:511)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:347)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:65)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:140)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1261)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:876)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 60
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:195)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:176)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:162)
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:283)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanNewClass(InfoStoreImpl.java:245)
+	... 46 more
+
+Dump of callerThis
+Object type = com.ibm.ws.anno.info.internal.ClassInfoCache
+  tc = class com.ibm.websphere.ras.TraceComponent@12672f33
+    strings[0] = "TraceComponent[com.ibm.ws.anno.info.internal.ClassInfoCache,class com.ibm.ws.anno.info.internal.ClassInfoCache,[com.ibm.ws.anno],com.ibm.ws.anno.resources.internal.AnnoMessages,null]"
+  CLASS_NAME = "com.ibm.ws.anno.info.internal.ClassInfoCache"
+  hashText = "com.ibm.ws.anno.info.internal.ClassInfoCache@575756196"
+  infoStore = class com.ibm.ws.anno.info.internal.InfoStoreImpl@6956bd8
+    tc = class com.ibm.websphere.ras.TraceComponent@563e30e7
+      strings[0] = "TraceComponent[com.ibm.ws.anno.info.internal.InfoStoreImpl,class com.ibm.ws.anno.info.internal.InfoStoreImpl,[com.ibm.ws.anno],com.ibm.ws.anno.resources.internal.AnnoMessages,null]"
+    scanStateLogger = class com.ibm.websphere.ras.TraceComponent@41d22a6c
+      strings[0] = "TraceComponent[com.ibm.ws.anno.service.internal.AnnotationServiceImpl_Logging,class com.ibm.ws.anno.service.internal.AnnotationServiceImpl_Logging,[com.ibm.ws.anno.state],com.ibm.ws.anno.resources.internal.AnnoMessages,null]"
+    CLASS_NAME = "com.ibm.ws.anno.info.internal.InfoStoreImpl"
+    hashText = "InfoStoreImpl@1888932807( 562400878 )"
+    infoStoreFactory = class com.ibm.ws.anno.info.internal.InfoStoreFactoryImpl@568df6ef
+      tc = class com.ibm.websphere.ras.TraceComponent@c4585f0
+      CLASS_NAME = "com.ibm.ws.anno.info.internal.InfoStoreFactoryImpl"
+      hashText = "InfoStoreFactoryImpl@22665213"
+      utilFactory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@7d0e534a
+      serialVersionUID = 322548826735188025
+    classSource = class com.ibm.ws.anno.classsource.internal.ClassSourceImpl_Aggregate@21858e6e
+      CLASS_NAME = "com.ibm.ws.anno.classsource.internal.ClassSourceImpl_Aggregate"
+      tc = class com.ibm.websphere.ras.TraceComponent@7854c324
+      openCount = 1
+      successfulOpens = class java.util.ArrayList@1aac0fdc
+      failedOpens = class java.util.HashSet@11c8bb2f
+      classSources = class java.util.ArrayList@3ee67d09
+      classSourceNames = class java.util.HashMap@31200050
+      seedClassSources = class java.util.HashSet@4b883b47
+      partialClassSources = class java.util.HashSet@1f4de0da
+      excludedClassSources = class java.util.HashSet@124ec80f
+      externalClassSources = class java.util.HashSet@235d7896
+      totalLookups = 195
+      repeatLookups = 5
+      i_lookupCounts = class java.util.IdentityHashMap@29053db9
+      i_globalResults = class java.util.IdentityHashMap@59be5373
+      i_failedLookups = class java.util.IdentityHashMap@3d54e6fb
+      i_firstSuccesses = class java.util.IdentityHashMap@7585a00f
+      serialVersionUID = 8833672715963184110
+      tc = class com.ibm.websphere.ras.TraceComponent@56172a3
+      CLASS_NAME = "com.ibm.ws.anno.classsource.internal.ClassSourceImpl"
+      hashText = "ClassSourceImpl_Aggregate@1329939650(anagram anagram)"
+      factory = class com.ibm.ws.anno.classsource.internal.ClassSourceImpl_Factory@75eda3f3
+      name = "anagram anagram"
+      canonicalName = "anagram anagram"
+      parentSource = null
+      options = class com.ibm.ws.anno.classsource.internal.ClassSourceImpl_Options@5e6343f6
+      internMap = class com.ibm.ws.anno.util.internal.UtilImpl_InternMap@441a05ff
+      scanCounts = class com.ibm.ws.anno.classsource.internal.ClassSourceImpl_ScanCounts@1c4740ab
+      resourceExclusionCount = 0
+      classExclusionCount = 0
+      classInclusionCount = 0
+      processedUsingJandex = false
+      META_INF_LENGTH = 8
+      serialVersionUID = -4933721197625310422
+    classInfoCache = class com.ibm.ws.anno.info.internal.ClassInfoCache@45f8b92
+    streamCount = 2
+    activityTimer = class com.ibm.ws.anno.info.internal.ActivityTimer@634ed4e4
+      activityStarts = class java.util.ArrayList@77ab054a
+      activityWindows = class java.util.ArrayList@fd00336
+      serialVersionUID = -2889063667734053051
+      $$$tc$$$ = class com.ibm.websphere.ras.TraceComponent@426224b
+    streamTime = 1
+    scanTime = 40
+    ruleTime = 0
+    serialVersionUID = -174359648717412744
+  descriptionInternMap = class com.ibm.ws.anno.util.internal.UtilImpl_InternMap@4ad8aeb
+    tc = class com.ibm.websphere.ras.TraceComponent@6becb4db
+      strings[0] = "TraceComponent[com.ibm.ws.anno.util.internal.UtilImpl_InternMap,class com.ibm.ws.anno.util.internal.UtilImpl_InternMap,[com.ibm.ws.anno],com.ibm.ws.anno.resources.internal.AnnoMessages,null]"
+    CLASS_NAME = "com.ibm.ws.anno.util.internal.UtilImpl_InternMap"
+    hashText = "UtilImpl_InternMap@2111676716(DescriptionMap)"
+    DEFAULT_LOG_THRESHHOLD = 4096
+    logThreshHold = 4096
+    factory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@7d0e534a
+      tc = class com.ibm.websphere.ras.TraceComponent@6f53323
+      CLASS_NAME = "com.ibm.ws.anno.util.internal.UtilImpl_Factory"
+      hashText = "UtilImpl_Factory@280733451"
+      serialVersionUID = -7802370278509421821
+    valueType = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@6ac71c57
+      VT_CLASS_RESOURCE = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@5451d730
+      VT_CLASS_REFERENCE = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@63dd1434
+      VT_CLASS_NAME = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@22b05445
+      VT_FIELD_NAME = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@293218e3
+      VT_METHOD_NAME = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@25fcc29b
+      VT_OTHER = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@6ac71c57
+      $VALUES = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType[6]
+      $$$tc$$$ = class com.ibm.websphere.ras.TraceComponent@577db1e1
+      name = "VT_OTHER"
+      ordinal = 5
+    checkValues = false
+    name = "DescriptionMap"
+    internMap = class java.util.HashMap@3db14873
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = class java.util.HashMap$Node[16]
+      entrySet = null
+      size = 7
+      modCount = 7
+      threshold = 12
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    lastReportedLength = 0
+    totalLength = 213
+    serialVersionUID = -5461277679491511795
+  packageNameInternMap = class com.ibm.ws.anno.util.internal.UtilImpl_InternMap@4015057b
+    tc = class com.ibm.websphere.ras.TraceComponent@6becb4db
+    CLASS_NAME = "com.ibm.ws.anno.util.internal.UtilImpl_InternMap"
+    hashText = "UtilImpl_InternMap@1680926484(PackageNameMap)"
+    DEFAULT_LOG_THRESHHOLD = 4096
+    logThreshHold = 4096
+    factory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@7d0e534a
+    valueType = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@22b05445
+      VT_CLASS_RESOURCE = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@5451d730
+      VT_CLASS_REFERENCE = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@63dd1434
+      VT_CLASS_NAME = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@22b05445
+      VT_FIELD_NAME = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@293218e3
+      VT_METHOD_NAME = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@25fcc29b
+      VT_OTHER = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@6ac71c57
+      $VALUES = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType[6]
+      $$$tc$$$ = class com.ibm.websphere.ras.TraceComponent@577db1e1
+      name = "VT_CLASS_NAME"
+      ordinal = 2
+    checkValues = false
+    name = "PackageNameMap"
+    internMap = class java.util.HashMap@76af75da
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = class java.util.HashMap$Node[16]
+      entrySet = null
+      size = 7
+      modCount = 7
+      threshold = 12
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    lastReportedLength = 0
+    totalLength = 106
+    serialVersionUID = -5461277679491511795
+  classNameInternMap = class com.ibm.ws.anno.util.internal.UtilImpl_InternMap@5434d57b
+    tc = class com.ibm.websphere.ras.TraceComponent@6becb4db
+    CLASS_NAME = "com.ibm.ws.anno.util.internal.UtilImpl_InternMap"
+    hashText = "UtilImpl_InternMap@2071267309(ClassNameMap)"
+    DEFAULT_LOG_THRESHHOLD = 4096
+    logThreshHold = 4096
+    factory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@7d0e534a
+    valueType = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@22b05445
+    checkValues = false
+    name = "ClassNameMap"
+    internMap = class java.util.HashMap@1734c7e
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = class java.util.HashMap$Node[32]
+      entrySet = null
+      size = 16
+      modCount = 16
+      threshold = 24
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    lastReportedLength = 0
+    totalLength = 408
+    serialVersionUID = -5461277679491511795
+  fieldNameInternMap = class com.ibm.ws.anno.util.internal.UtilImpl_InternMap@7250954e
+    tc = class com.ibm.websphere.ras.TraceComponent@6becb4db
+    CLASS_NAME = "com.ibm.ws.anno.util.internal.UtilImpl_InternMap"
+    hashText = "UtilImpl_InternMap@1395753808(FieldNameMap)"
+    DEFAULT_LOG_THRESHHOLD = 4096
+    logThreshHold = 4096
+    factory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@7d0e534a
+    valueType = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@293218e3
+      VT_CLASS_RESOURCE = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@5451d730
+      VT_CLASS_REFERENCE = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@63dd1434
+      VT_CLASS_NAME = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@22b05445
+      VT_FIELD_NAME = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@293218e3
+      VT_METHOD_NAME = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@25fcc29b
+      VT_OTHER = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@6ac71c57
+      $VALUES = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType[6]
+      $$$tc$$$ = class com.ibm.websphere.ras.TraceComponent@577db1e1
+      name = "VT_FIELD_NAME"
+      ordinal = 3
+    checkValues = false
+    name = "FieldNameMap"
+    internMap = class java.util.HashMap@4a172acc
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = class java.util.HashMap$Node[32]
+      entrySet = null
+      size = 15
+      modCount = 15
+      threshold = 24
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    lastReportedLength = 0
+    totalLength = 291
+    serialVersionUID = -5461277679491511795
+  methodNameInternMap = class com.ibm.ws.anno.util.internal.UtilImpl_InternMap@1ac2a33d
+    tc = class com.ibm.websphere.ras.TraceComponent@6becb4db
+    CLASS_NAME = "com.ibm.ws.anno.util.internal.UtilImpl_InternMap"
+    hashText = "UtilImpl_InternMap@1131781339(MethodNameMap)"
+    DEFAULT_LOG_THRESHHOLD = 4096
+    logThreshHold = 4096
+    factory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@7d0e534a
+    valueType = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@25fcc29b
+      VT_CLASS_RESOURCE = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@5451d730
+      VT_CLASS_REFERENCE = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@63dd1434
+      VT_CLASS_NAME = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@22b05445
+      VT_FIELD_NAME = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@293218e3
+      VT_METHOD_NAME = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@25fcc29b
+      VT_OTHER = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@6ac71c57
+      $VALUES = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType[6]
+      $$$tc$$$ = class com.ibm.websphere.ras.TraceComponent@577db1e1
+      name = "VT_METHOD_NAME"
+      ordinal = 4
+    checkValues = false
+    name = "MethodNameMap"
+    internMap = class java.util.HashMap@f136da2
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = class java.util.HashMap$Node[16]
+      entrySet = null
+      size = 11
+      modCount = 11
+      threshold = 12
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    lastReportedLength = 0
+    totalLength = 163
+    serialVersionUID = -5461277679491511795
+  packageInfos = class java.util.HashMap@729453c3
+    serialVersionUID = 362498820763181265
+    DEFAULT_INITIAL_CAPACITY = 16
+    MAXIMUM_CAPACITY = 1073741824
+    DEFAULT_LOAD_FACTOR = 0.75
+    TREEIFY_THRESHOLD = 8
+    UNTREEIFY_THRESHOLD = 6
+    MIN_TREEIFY_CAPACITY = 64
+    table = null
+    entrySet = null
+    size = 0
+    modCount = 0
+    threshold = 0
+    loadFactor = 0.75
+    keySet = null
+    values = null
+  DO_FORCE_PACKAGE = true
+  DO_NOT_FORCE_PACKAGE = false
+  FOR_FAILED_LOAD = true
+  NOT_FOR_FAILED_LOAD = false
+  primitiveClassInfos = class java.util.HashMap@79dfe7
+    serialVersionUID = 362498820763181265
+    DEFAULT_INITIAL_CAPACITY = 16
+    MAXIMUM_CAPACITY = 1073741824
+    DEFAULT_LOAD_FACTOR = 0.75
+    TREEIFY_THRESHOLD = 8
+    UNTREEIFY_THRESHOLD = 6
+    MIN_TREEIFY_CAPACITY = 64
+    table = class java.util.HashMap$Node[16]
+      Node[0] = null
+      Node[1] = null
+      Node[2] = null
+      Node[3] = class java.util.HashMap$Node@588d5ba0
+      Node[4] = null
+      Node[5] = null
+      Node[6] = null
+      Node[7] = null
+      Node[8] = null
+      Node[9] = null
+      Node[10] = null
+      Node[11] = null
+      Node[12] = null
+      Node[13] = null
+      Node[14] = null
+      Node[15] = null
+    entrySet = null
+    size = 1
+    modCount = 1
+    threshold = 12
+    loadFactor = 0.75
+    keySet = null
+    values = null
+  DO_ALLOW_PRIMITIVE = true
+  DO_NOT_ALLOW_PRIMITIVE = false
+  delayedClassInfos = class java.util.HashMap@76f5d043
+    serialVersionUID = 362498820763181265
+    DEFAULT_INITIAL_CAPACITY = 16
+    MAXIMUM_CAPACITY = 1073741824
+    DEFAULT_LOAD_FACTOR = 0.75
+    TREEIFY_THRESHOLD = 8
+    UNTREEIFY_THRESHOLD = 6
+    MIN_TREEIFY_CAPACITY = 64
+    table = class java.util.HashMap$Node[16]
+      Node[0] = null
+      Node[1] = null
+      Node[2] = null
+      Node[3] = class java.util.HashMap$Node@215583fe
+      Node[4] = null
+      Node[5] = null
+      Node[6] = null
+      Node[7] = null
+      Node[8] = null
+      Node[9] = class java.util.HashMap$Node@7895d75e
+      Node[10] = class java.util.HashMap$Node@54ba5719
+      Node[11] = class java.util.HashMap$Node@5b7fdab
+      Node[12] = class java.util.HashMap$Node@870c490
+      Node[13] = null
+      Node[14] = null
+      Node[15] = class java.util.HashMap$Node@5e09dde7
+    entrySet = null
+    size = 8
+    modCount = 8
+    threshold = 12
+    loadFactor = 0.75
+    keySet = null
+    values = null
+  CLASSINFO_CACHE_LIMIT_PROPERTY_NAME = "classinfocachesize"
+  MIN_CLASSINFO_CACHE_LIMIT = 100
+  MAX_CLASSINFO_CACHE_LIMIT = 10000
+  DEFAULT_CLASSINFO_CACHE_LIMIT = 2000
+  classInfoCacheLimit = 2000
+  javaClassInfos = class java.util.HashMap@79a15eeb
+    serialVersionUID = 362498820763181265
+    DEFAULT_INITIAL_CAPACITY = 16
+    MAXIMUM_CAPACITY = 1073741824
+    DEFAULT_LOAD_FACTOR = 0.75
+    TREEIFY_THRESHOLD = 8
+    UNTREEIFY_THRESHOLD = 6
+    MIN_TREEIFY_CAPACITY = 64
+    table = null
+    entrySet = null
+    size = 0
+    modCount = 0
+    threshold = 0
+    loadFactor = 0.75
+    keySet = null
+    values = null
+  annotatedClassInfos = class java.util.HashMap@29fb1057
+    serialVersionUID = 362498820763181265
+    DEFAULT_INITIAL_CAPACITY = 16
+    MAXIMUM_CAPACITY = 1073741824
+    DEFAULT_LOAD_FACTOR = 0.75
+    TREEIFY_THRESHOLD = 8
+    UNTREEIFY_THRESHOLD = 6
+    MIN_TREEIFY_CAPACITY = 64
+    table = null
+    entrySet = null
+    size = 0
+    modCount = 0
+    threshold = 0
+    loadFactor = 0.75
+    keySet = null
+    values = null
+  firstClassInfo = null
+  lastClassInfo = null
+  classInfos = class java.util.HashMap@67337468
+    serialVersionUID = 362498820763181265
+    DEFAULT_INITIAL_CAPACITY = 16
+    MAXIMUM_CAPACITY = 1073741824
+    DEFAULT_LOAD_FACTOR = 0.75
+    TREEIFY_THRESHOLD = 8
+    UNTREEIFY_THRESHOLD = 6
+    MIN_TREEIFY_CAPACITY = 64
+    table = null
+    entrySet = null
+    size = 0
+    modCount = 0
+    threshold = 0
+    loadFactor = 0.75
+    keySet = null
+    values = null
+  serialVersionUID = 5822143660628227576
+
+Dump of objectArray[0]
+Object type = java.lang.String
+  String value = "java.lang.Object"
+

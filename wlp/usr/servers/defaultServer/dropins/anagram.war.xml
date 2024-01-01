@@ -14,9 +14,9 @@
     <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar" targetInArchive="/WEB-INF/lib/error_prone_annotations-2.23.0.jar"/>
     <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar" targetInArchive="/WEB-INF/lib/j2objc-annotations-2.8.jar"/>
     <file sourceOnDisk="/Users/dancskornel/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar" targetInArchive="/WEB-INF/lib/commons-lang3-3.7.jar"/>
-    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/squareup/okhttp3/okhttp/5.0.0-alpha.12/okhttp-5.0.0-alpha.12.jar" targetInArchive="/WEB-INF/lib/okhttp-5.0.0-alpha.12.jar"/>
-    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/squareup/okhttp3/okhttp-jvm/5.0.0-alpha.12/okhttp-jvm-5.0.0-alpha.12.jar" targetInArchive="/WEB-INF/lib/okhttp-jvm-5.0.0-alpha.12.jar"/>
-    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/squareup/okio/okio-jvm/3.7.0/okio-jvm-3.7.0.jar" targetInArchive="/WEB-INF/lib/okio-jvm-3.7.0.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar" targetInArchive="/WEB-INF/lib/okhttp-4.12.0.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.jar" targetInArchive="/WEB-INF/lib/kotlin-stdlib-jdk8-1.8.21.jar"/>
+    <file sourceOnDisk="/Users/dancskornel/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.jar" targetInArchive="/WEB-INF/lib/kotlin-stdlib-jdk7-1.8.21.jar"/>
     <file sourceOnDisk="/Users/dancskornel/.m2/repository/com/squareup/okio/okio/2.2.2/okio-2.2.2.jar" targetInArchive="/WEB-INF/lib/okio-2.2.2.jar"/>
     <file sourceOnDisk="/Users/dancskornel/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.2.60/kotlin-stdlib-1.2.60.jar" targetInArchive="/WEB-INF/lib/kotlin-stdlib-1.2.60.jar"/>
     <file sourceOnDisk="/Users/dancskornel/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.60/kotlin-stdlib-common-1.2.60.jar" targetInArchive="/WEB-INF/lib/kotlin-stdlib-common-1.2.60.jar"/>

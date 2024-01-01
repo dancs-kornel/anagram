@@ -39,9 +39,9 @@
     <projectCompileDependency>com.google.errorprone:error_prone_annotations:2.23.0</projectCompileDependency>
     <projectCompileDependency>com.google.j2objc:j2objc-annotations:2.8</projectCompileDependency>
     <projectCompileDependency>org.apache.commons:commons-lang3:3.7</projectCompileDependency>
-    <projectCompileDependency>com.squareup.okhttp3:okhttp:5.0.0-alpha.12</projectCompileDependency>
-    <projectCompileDependency>com.squareup.okhttp3:okhttp-jvm:5.0.0-alpha.12</projectCompileDependency>
-    <projectCompileDependency>com.squareup.okio:okio-jvm:3.7.0</projectCompileDependency>
+    <projectCompileDependency>com.squareup.okhttp3:okhttp:4.12.0</projectCompileDependency>
+    <projectCompileDependency>org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21</projectCompileDependency>
+    <projectCompileDependency>org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21</projectCompileDependency>
     <projectCompileDependency>com.squareup.okio:okio:2.2.2</projectCompileDependency>
     <projectCompileDependency>org.jetbrains.kotlin:kotlin-stdlib:1.2.60</projectCompileDependency>
     <projectCompileDependency>org.jetbrains.kotlin:kotlin-stdlib-common:1.2.60</projectCompileDependency>

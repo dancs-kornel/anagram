@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap');
+
+:root {
+    --primary-color: royalblue;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    display: grid;
+    gap: 1rem;
+    place-items: center;
+    background: rgb(20, 20, 20);
+    margin: 0rem;
+    color: white;
+    font-weight: 500;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0.75rem;
+    color: var(--primary-color);
+}
+
+.block {
+    min-height: 200px;
+    width: 640px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(255 255 255 / 10%);
+    border-radius: 1.5rem;
+    margin: 1rem;
+}
+
+.block:after {
+    content: "";
+    height: 70px;
+    width: 1px;
+    position: absolute;
+    left: -1px;
+    top: 80%;
+    transition: top, opacity;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+    background: linear-gradient(transparent,
+            var(--primary-color),
+            transparent);
+    opacity: 0;
+}
+
+.block:hover:after {
+    top: 40%;
+    opacity: 1;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    padding: 0, 1rem;
+}
+
+li {
+    list-style: none;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid rgb(255 255 255 / 5%);
+}
+
+span {
+    font-weight: 400;
+    color: rgb(255 255 255 / 75%)
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+}
+
+.permutations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    width: auto;
+    max-width: 400px;
+    min-height: 200px;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.permutations ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
